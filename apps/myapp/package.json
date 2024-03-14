@@ -2,14 +2,9 @@
   "name": "myapp",
   "version": "0.0.1",
   "private": true,
+  "main": "index.js",
   "dependencies": {
-    "@testing-library/jest-native": "*",
-    "@testing-library/react-native": "*",
-    "metro-config": "*",
-    "react-native": "*",
-    "expo": "*",
-    "react-native-svg": "*",
-    "react-native-web": "*"
+    "react-native": "*"
   },
   "scripts": {
     "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . apps/myapp && cp yarn.lock apps/myapp",
