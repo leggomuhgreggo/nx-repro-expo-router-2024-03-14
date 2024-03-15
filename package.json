@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@config-plugins/detox": "~6.0.0",
-    "@expo/cli": "~0.16.5",
+    "@expo/cli": "^0.17.8",
     "@nx/detox": "18.0.8",
     "@nx/eslint": "18.0.8",
     "@nx/eslint-plugin": "18.0.8",
